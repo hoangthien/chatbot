@@ -1,15 +1,24 @@
 {
-  "name": "puppeteer-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "realtime_chat_app",
+  "version": "0.0.1",
+  "description": "real time chat application",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luongvietdung/chat-application.git"
+  },
+  "author": "DungLV",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/luongvietdung/chat-application/issues"
+  },
   "dependencies": {
-    "image-downloader": "^3.3.0",
-    "puppeteer": "^1.1.1"
+    "ejs": "^1.0.0",
+    "express": "^4.8.2",
+    "gravatar": "~1.0.6",
+    "socket.io": "1.0.6"
   }
 }
