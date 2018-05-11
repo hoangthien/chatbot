@@ -16,7 +16,7 @@
     "url": "https://github.com/luongvietdung/chat-application/issues"
   },
   "dependencies": {
-    "ejs": "^1.0.0",
+    "ejs": "2.5.5",
     "express": "^4.8.2",
     "gravatar": "~1.0.6",
     "socket.io": "1.0.6"
